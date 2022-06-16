@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class Player_data : MonoBehaviour
 {
-    public void OnMouseDown()
+    // Start is called before the first frame update
+    void Start()
     {
-        gameObject.SetActive(false);
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
