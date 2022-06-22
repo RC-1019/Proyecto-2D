@@ -1,16 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Limite : MonoBehaviour
 {
-    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(gameObject.tag == "Enemy")
+        if(collision.tag == "Enemy")
         {
-            Debug.Log("Entró al limite");
-            gameObject.SetActive(false);
+            Destroy(collision.gameObject);
         }
     }
 }
