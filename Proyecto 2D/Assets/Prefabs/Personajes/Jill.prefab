@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 5868016203449052235}
   - component: {fileID: 5868016203449052232}
   - component: {fileID: 6150268226647460280}
+  - component: {fileID: -28829467675161659}
   m_Layer: 0
   m_Name: Jill
-  m_TagString: Untagged
+  m_TagString: Ally
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,3 +130,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.23832537, y: 0.32415295}
   m_EdgeRadius: 0
+--- !u!114 &-28829467675161659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5868016203449052233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b17a33a7d95d14a891d2fa40681b7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadMovimiento: 5
+  puntosMovimiento:
+  - {fileID: 7439450370754492300, guid: 607f1cc2f1b150245a81da7d931a254a, type: 3}
+  - {fileID: 8477945009566413230, guid: fa65f0354d9e91f459b71e3ca28c5c54, type: 3}
+  distanciaMinima: 0.2

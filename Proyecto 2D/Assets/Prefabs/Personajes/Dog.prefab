@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6832329192959922468}
   - component: {fileID: 6832329192959922475}
   - component: {fileID: 2125209298536841363}
+  - component: {fileID: -1376251295067632028}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Enemy
@@ -129,3 +130,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.18961284, y: 0.3071941}
   m_EdgeRadius: 0
+--- !u!114 &-1376251295067632028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6832329192959922474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b17a33a7d95d14a891d2fa40681b7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadMovimiento: 5
+  puntosMovimiento:
+  - {fileID: 4716966031730709607, guid: 0701315eb0b6c644b911ad55c57bc169, type: 3}
+  - {fileID: 4561020968099648881, guid: 9a19a5e0391152c459e6af513b7e2e8c, type: 3}
+  - {fileID: 4440891876624539211, guid: 08931d847d108bd4d8d5e1f859d8f2d1, type: 3}
+  - {fileID: 7504173543021723963, guid: ba92cde2c2249634a930fb9069862838, type: 3}
+  distanciaMinima: 0.2

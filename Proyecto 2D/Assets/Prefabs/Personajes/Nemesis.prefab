@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 9138739106832993943}
   - component: {fileID: 9138739106832993942}
   - component: {fileID: 3926325458702133822}
+  - component: {fileID: -1422885732983749000}
   m_Layer: 0
   m_Name: Nemesis
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -129,3 +130,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.27679655, y: 0.32418096}
   m_EdgeRadius: 0
+--- !u!114 &-1422885732983749000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9138739106832993941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b17a33a7d95d14a891d2fa40681b7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadMovimiento: 2
+  puntosMovimiento:
+  - {fileID: 7599760127446692478, guid: b6168c2134bb91e409943ec6f60e5189, type: 3}
+  - {fileID: 914371356334092935, guid: 074680f6857d5144286e4b0796fadd85, type: 3}
+  - {fileID: 8186276938578704416, guid: 97ea8e54e6d1f8a4393e8ac96a01b4f0, type: 3}
+  - {fileID: 4830844282591299555, guid: 88473db5eb89ef847a0f603b16d8fb28, type: 3}
+  distanciaMinima: 0.2
