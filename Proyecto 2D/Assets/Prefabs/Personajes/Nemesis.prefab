@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9138739106832993942}
   - component: {fileID: 3926325458702133822}
   - component: {fileID: -1422885732983749000}
+  - component: {fileID: -7754181202296587966}
   m_Layer: 0
   m_Name: Nemesis
   m_TagString: Enemy
@@ -149,3 +150,16 @@ MonoBehaviour:
   - {fileID: 8186276938578704416, guid: 97ea8e54e6d1f8a4393e8ac96a01b4f0, type: 3}
   - {fileID: 4830844282591299555, guid: 88473db5eb89ef847a0f603b16d8fb28, type: 3}
   distanciaMinima: 0.2
+--- !u!114 &-7754181202296587966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9138739106832993941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df28e09aa017cc408ef72d3c8c29759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: 100

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5868016203449052232}
   - component: {fileID: 6150268226647460280}
   - component: {fileID: -28829467675161659}
+  - component: {fileID: -3578281691779770117}
   m_Layer: 0
   m_Name: Jill
   m_TagString: Ally
@@ -147,3 +148,16 @@ MonoBehaviour:
   - {fileID: 7439450370754492300, guid: 607f1cc2f1b150245a81da7d931a254a, type: 3}
   - {fileID: 8477945009566413230, guid: fa65f0354d9e91f459b71e3ca28c5c54, type: 3}
   distanciaMinima: 0.2
+--- !u!114 &-3578281691779770117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5868016203449052233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df28e09aa017cc408ef72d3c8c29759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0

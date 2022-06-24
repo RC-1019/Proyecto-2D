@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8916927431707472367}
   - component: {fileID: 7688965525579513134}
   - component: {fileID: -3260979626697773356}
+  - component: {fileID: 2414714082511583420}
   m_Layer: 0
   m_Name: Carlos
   m_TagString: Ally
@@ -147,3 +148,16 @@ MonoBehaviour:
   - {fileID: 4858600752229027108, guid: 920627b188855764a8d45bbaad9e0254, type: 3}
   - {fileID: 8477945009566413230, guid: fa65f0354d9e91f459b71e3ca28c5c54, type: 3}
   distanciaMinima: 0.2
+--- !u!114 &2414714082511583420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8916927431707472364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df28e09aa017cc408ef72d3c8c29759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
