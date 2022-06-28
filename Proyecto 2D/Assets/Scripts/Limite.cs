@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Limite : MonoBehaviour
 {
     public GameObject[] Vida;
@@ -25,6 +26,7 @@ public class Limite : MonoBehaviour
         if(life < 1)
         {
             Destroy(Vida[0].gameObject);
+            SceneManager.LoadScene("GameOver");
         }
         else if(life < 2)
         {

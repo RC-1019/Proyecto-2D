@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b17a33a7d95d14a891d2fa40681b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMovimiento: 2
+  velocidadMovimiento: 2.5
   puntosMovimiento:
   - {fileID: 7599760127446692478, guid: b6168c2134bb91e409943ec6f60e5189, type: 3}
   - {fileID: 914371356334092935, guid: 074680f6857d5144286e4b0796fadd85, type: 3}

@@ -15,7 +15,12 @@ public class ScoreUI : MonoBehaviour
     {
         gameScore = this;
     }
-    
+
+    private void Start()
+    {
+        score = 0;
+    }
+
     void Update()
     {
         if(textScore != null)
