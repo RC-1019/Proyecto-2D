@@ -9,4 +9,14 @@ public class MenuManagement : MonoBehaviour
     {
         SceneManager.LoadScene("JuegoPrincipal");
     }
+
+    public void MenuTutorial()
+    {
+        SceneManager.LoadScene("Tutorial");
+    }
+
+    public void MenuPrincipal()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

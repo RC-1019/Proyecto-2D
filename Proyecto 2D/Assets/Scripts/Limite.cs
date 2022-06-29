@@ -15,7 +15,19 @@ public class Limite : MonoBehaviour
             life--;
             Destroy(collision.gameObject);
         }
-        else if (collision.tag == "Ally")
+
+        else if(collision.tag == "Nemesis")
+        {
+            life--;
+            Destroy(collision.gameObject);
+        }
+
+        else if (collision.tag == "Jill")
+        {
+            Destroy(collision.gameObject);
+        }
+
+        else if (collision.tag == "Carlos")
         {
             Destroy(collision.gameObject);
         }

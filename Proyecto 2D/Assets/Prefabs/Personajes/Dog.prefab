@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2125209298536841363}
   - component: {fileID: -1376251295067632028}
   - component: {fileID: 7217880581627222950}
+  - component: {fileID: -1688898056083476573}
   m_Layer: 0
   m_Name: Dog
   m_TagString: Enemy
@@ -118,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.001164183, y: -0.008731268}
+  m_Offset: {x: 0.0004720688, y: -0.009423412}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -129,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.18961284, y: 0.3071941}
+  m_Size: {x: 0.19653445, y: 0.311347}
   m_EdgeRadius: 0
 --- !u!114 &-1376251295067632028
 MonoBehaviour:
@@ -163,3 +164,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: 50
+  vidaNemesis: 2
+  Source: {fileID: 0}
+  efectos:
+  - {fileID: 8300000, guid: 9f5719b6b6a574b48915cdf02f9910cb, type: 3}
+  - {fileID: 8300000, guid: 5101def61752a2d4b953b1c74ca8c5df, type: 3}
+  - {fileID: 8300000, guid: fe7b5c6d876a77344a9c47d615481ad5, type: 3}
+  - {fileID: 8300000, guid: 1fb51d0bffb1f8541b89096744662fe5, type: 3}
+--- !u!50 &-1688898056083476573
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6832329192959922474}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
