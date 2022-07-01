@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7682583546038131325}
   - component: {fileID: 3504923947874793019}
   - component: {fileID: 5224321201052567809}
-  - component: {fileID: 3130325547156351861}
+  - component: {fileID: 5085113753452501445}
   m_Layer: 0
   m_Name: Nemesis
   m_TagString: Nemesis
@@ -165,14 +165,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score: 100
   vidaNemesis: 2
-  Source: {fileID: 3130325547156351861}
+  Source: {fileID: 5085113753452501445}
   efectos:
   - {fileID: 8300000, guid: 9f5719b6b6a574b48915cdf02f9910cb, type: 3}
   - {fileID: 8300000, guid: 5101def61752a2d4b953b1c74ca8c5df, type: 3}
   - {fileID: 8300000, guid: fe7b5c6d876a77344a9c47d615481ad5, type: 3}
   - {fileID: 8300000, guid: 1fb51d0bffb1f8541b89096744662fe5, type: 3}
   animacion: {fileID: 2463552525259652821}
---- !u!82 &3130325547156351861
+--- !u!82 &5085113753452501445
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,7 +190,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 20
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

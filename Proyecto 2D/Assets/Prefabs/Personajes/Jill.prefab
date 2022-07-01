@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6150268226647460280}
   - component: {fileID: -28829467675161659}
   - component: {fileID: -3578281691779770117}
-  - component: {fileID: 2136573418403240505}
+  - component: {fileID: 7450468431326919879}
   m_Layer: 0
   m_Name: Jill
   m_TagString: Jill
@@ -163,14 +163,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Score: 0
   vidaNemesis: 2
-  Source: {fileID: 2136573418403240505}
+  Source: {fileID: 7450468431326919879}
   efectos:
   - {fileID: 8300000, guid: 9f5719b6b6a574b48915cdf02f9910cb, type: 3}
   - {fileID: 8300000, guid: 5101def61752a2d4b953b1c74ca8c5df, type: 3}
   - {fileID: 8300000, guid: fe7b5c6d876a77344a9c47d615481ad5, type: 3}
   - {fileID: 8300000, guid: 1fb51d0bffb1f8541b89096744662fe5, type: 3}
   animacion: {fileID: 5868016203449052232}
---- !u!82 &2136573418403240505
+--- !u!82 &7450468431326919879
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,7 +188,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 20
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

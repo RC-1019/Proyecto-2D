@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Deteccion : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class Deteccion : MonoBehaviour
             AudioSource.PlayClipAtPoint(efectos[0], gameObject.transform.position);
             animacion.SetBool("Muerte", true);
             Destroy(gameObject, 0.2f);
+            SceneManager.LoadScene("GameOver");
         }
 
         if (tag == "Carlos")
@@ -38,6 +40,7 @@ public class Deteccion : MonoBehaviour
             AudioSource.PlayClipAtPoint(efectos[0], gameObject.transform.position);
             animacion.SetBool("Muerte", true);
             Destroy(gameObject, 0.2f);
+            SceneManager.LoadScene("GameOver");
         }
 
         if (tag == "Nemesis")
